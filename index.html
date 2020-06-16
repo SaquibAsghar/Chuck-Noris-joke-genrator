@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+		/>
+		<title>Chuck Norris Jokes</title>
+	</head>
+	<body>
+		<div class="container" style="width: 50%;">
+			<h2>Chuck Noris Jokes generator</h2>
+			<form id="joke-form">
+				<label for="number-of-joke">
+					<input
+						type="number"
+						name="no_of_jokes"
+						class="u-full-width"
+						id="number-of-joke"
+                        placeholder="Enter number of joke you want"
+                         style="width: 50%" 
+					/>
+				</label>
+			</form>
+			<button class="button-primary" id="get-me-joke">Get me jokes</button>
+
+			<div class="card-container">
+				<div class="card">
+					<ol class="lists"></ol>
+				</div>
+			</div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
